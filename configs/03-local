@@ -51,6 +51,8 @@ CONFIG_R8169=y
 ## Disable debug symbols
 # CONFIG_DEBUG_INFO is not set
 # CONFIG_DEBUG_INFO_BTF is not set
+# CONFIG_DEBUG_INFO_DWARF_TOOLCHAIN_DEFAULT is not set
+CONFIG_DEBUG_INFO_NONE=y
 
 ## Disable X86_X32
 # CONFIG_X86_X32 is not set
