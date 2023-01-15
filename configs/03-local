@@ -86,3 +86,8 @@ CONFIG_MMC_CQHCI=y
 
 ## Disable PC Speaker
 # CONFIG_INPUT_PCSPKR is not set
+
+# Enable full LTO, requires LLVM=1 being passed to make at every execution.
+CONFIG_LTO=y
+CONFIG_LTO_CLANG=y
+CONFIG_LTO_CLANG_FULL=y
